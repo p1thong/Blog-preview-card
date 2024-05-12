@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'content';
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'content';
+}
+
+.container {
+    width: 27%;
+    margin: 10% 0;
+    background-color: #fff;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+    border: #000 solid 2px;
+    box-shadow: 5px 5px  #000;
+}
+
+.section-1 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.section-2 .learning {
+    font-size: 12px;
+    font-weight: 800;
+    width: fit-content;
+    padding: 5px 10px;
+    margin-top: 15px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+
+.section-2 .publish {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.section-2 .content {
+    font-size: 12px;
+    color: hsl(0, 0%, 50%);
+}
+
+.section-2 .title {
+    margin-bottom: 15px;
+}
+
+.section-3 img {
+    width: 10%;
+    text-align: center;
+}
+
+.section-3 h5 {
+    margin-left: 3%;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
